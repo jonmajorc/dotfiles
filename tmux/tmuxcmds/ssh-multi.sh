@@ -8,7 +8,7 @@
 
 starttmux() {
     if [ -z "$HOSTS" ]; then
-       echo -n "Please provide of list of hosts separated by spaces [ENTER]: "
+       echo -n "Please provide a list of hosts (separated by spaces) [ENTER]: "
        read HOSTS
     fi
 
