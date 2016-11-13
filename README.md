@@ -18,17 +18,19 @@ Each folder contains application related dotfiles with any related dotfiles/file
 
 symlink your `.tmux.conf` file to a home `.tmux.conf` file. You do not need to create the configuration file you are symlinking to, it will just happen.
 
+*NOTE: You will need your existing .tmux.conf file in your home directory removed before you can symlink*
 ```
-$ ln -s /absolute/path/to/dir/.tmux.conf ~/.tmux.conf
-```
-
-symlink your `tmuxcmds` directory and all of its contents.
-
-```
-$ ln -s /absolute/path/to/dir/* ~/tmuxcmds/
+$ ln -s /absolute/path/to/dir/tmux/.tmux.conf ~/.tmux.conf
 ```
 
-run this command again whenever you create a new tmux command inside of th `tmuxcmds` directory. This will create a new symbolic link for any new file it finds inside `tmuxcmds`.
+Create direcoty `tmuxcmds` in user's home directory. Symlink your `tmuxcmds` directory and all of its contents of this repo to your newly created `tmuxcmds` directory in home.
+
+```
+$ mkdir ~/tmuxcmds
+$ ln -s /absolute/path/to/dir/tmux/tmuxcmds/* ~/tmuxcmds/
+```
+
+run this command again whenever you create a new file inside of th `tmuxcmds` directory that you wish to sync back to `~/tmuxcmds`. Running this command again will create any new symboliclink new files it finds inside `to/repo/dir/tmuxcmds`.
 
 ### ssh-multi.sh
 
