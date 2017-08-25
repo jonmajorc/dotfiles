@@ -1,0 +1,37 @@
+[
+    // {
+    //     "key": "ctrl+k",
+    //     "command": "cursorUp",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+h",
+    //     "command": "cursorLeft",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+j",
+    //     "command": "cursorDown",
+    //     "when": "editorTextFocus"
+    // },
+    // {
+    //     "key": "ctrl+l",
+    //     "command": "cursorRight",
+    //     "when": "editorTextFocus"
+    // },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    { 
+        "key": "cmd+k cmd+down",          
+        "command": "workbench.action.terminal.focus",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "cmd+k cmd+up",          
+        "command": "workbench.action.previousEditor",
+        "when": "!editorTextFocus" 
+    }
+]
