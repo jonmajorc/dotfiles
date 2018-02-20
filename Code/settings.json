@@ -4,14 +4,26 @@
     "prettier.singleQuote": true,
     "editor.formatOnSave": false,
     "editor.tabSize": 2,
-    "vim.enableNeovim": true,
-    "vim.disableAnnoyingNeovimMessage": true,
     "prettier.trailingComma": "es5",
-    "workbench.colorTheme": "One Dark Pro",
     "prettier.semi": false,
     "atomKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true
+    "editor.formatOnPaste": false,
+    "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {},
+    "git.path": "/usr/bin/git",
+    "prettier.eslintIntegration": false,
+    "vsicons.projectDetection.autoReload": true,
+    "prettier.printWidth": 80,
+    "tslint.autoFixOnSave": true,
+    "flowide.pathToFlow": "./node_modules/.bin/flow",
+    "workbench.colorTheme": "Atom One Dark",
 } // Place your settings in this file to overwrite the default settings
 // {
 //     "search.exclude": {

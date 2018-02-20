@@ -1,0 +1,6 @@
+#.irs - configuration for 'git pair'
+pairs:
+  # <initials>: <Firstname> <Lastname>[; <email-id>]
+  jmcb: Jon Major Condon; jon@bendworks.com
+  jonmajorc: Jon Major Condon; jmajorcondon@gmail.com
+  pearlbea: Pearl Latteier; pearlbea@gmail.com
